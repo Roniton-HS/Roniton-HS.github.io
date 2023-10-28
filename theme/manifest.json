@@ -1,0 +1,34 @@
+{
+   "description": "Themiton",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAls1YVfsI8xoRiTOIcF/GQtj0010kUgeJUkJjj6eRpwSfWVN1pTKBkDhI7TEbLJOae5pqKaArJcSZ8/0ohshDXfqA05Ezt8DSiHaM4V/cStqBH0sYp/enbPG72/IwSAXCwG4GNUz9AaycLTtff4uwWW1OqXrG6JM+L1eyui/dGwaaxitCtqjuJmKnYnwSLBmOtgQRgO+rmJ2yGOR37yax6GsGXqeOBRRh+SDtkNMF9aflQu2onUgj5a+lDc2ZglH+xuZ/NNgzwomuTQogYzIA13GRNx0bstsDw9ZDUzVkIDbNMV6oMgBdg96HhUS8ty1NA6DPJJ0IVI9QaqqB30jDtQIDAQAB",
+   "manifest_version": 2,
+   "name": "Themiton",
+   "short_name": "Themiton",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 255, 255, 255 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 0, 5, 14 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_frame_overlay": "images/theme_frame_overlay.png",
+         "theme_window_control_background": "images/theme_window_control_background.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top left",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "background_tab": [ 0.6, 0.6, 0.6 ],
+	   "frame_inactive": [ 0.4, 0.4, 0.4 ],
+         "buttons": [ 0.953, 0.976, 1 ],
+         "frame_incognito": [ 0.64, 0.78, 0.82 ],
+         "frame_incognito_inactive": [ 0.76, 0.86, 0.82 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

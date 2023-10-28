@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("timetable/timetableBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 16px;
+}
+
+a { /* all links */
+    color: white;
+    margin-left: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover { /* link hover */
+ }
+
+.header-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.datetime {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.time {
+    font-size: 50px;
+}
+
+.links-box {
+    padding: 10px 10px 5px 10px;
+    max-width: 57%;
+    margin: 50px auto auto;
+    background-color: rgba(56, 56, 56, 0.8);
+    border: 3px #4a4949 solid;
+    border-radius: 5px;
+}
+
+.link-images {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 100ms;
+}
+
+.link-images:hover {
+    background: #403e3e;
+    transform: scale(1.5);
+}
+
+.main-image {
+    max-width: 8.5%;
+    max-height: 8.5%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 3% auto auto;
+    background: rgba(56, 56, 56, 0.4);
+    border: 3px #4a4949 solid;
+    border-radius: 30px;
+
+}
+
+.foot{
+    max-width: 8%;
+    display: flex;
+    margin: auto auto auto 46%;
+    padding: 10px;
+    background: rgba(56, 56, 56, 0.8);
+    border-radius: 30px;
+    border: 3px #4a4949 solid;
+}
+.bottom-box{
+    display: flex;
+    margin: 11% auto auto;
+}
+.bottom-links{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 100ms;
+}
+
+.bottom-links:hover{
+    transform: scale(1.5);
+}
