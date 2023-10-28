@@ -80,7 +80,8 @@ a:hover { /* link hover */
 }
 .bottom-box{
     display: flex;
-    margin: 11% auto auto;
+    margin: auto;
+    margin-top: 8%;
 }
 .bottom-links{
     width: 60px;
