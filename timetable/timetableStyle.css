@@ -29,9 +29,8 @@ td {
 
 th {
     padding: 10px;
-  height: 50px;
-  border: 1px black solid;
-  border-spacing: 0;
+    border: 1px black solid;
+    border-spacing: 0;
 }
 
 .datetime{
