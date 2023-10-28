@@ -12,43 +12,46 @@ a { /* all links */
 }
 
 table {
-  width: 90%;
-  border-radius: 5px;
-  border-collapse: separate;
-  border-spacing: 0;
-  margin: 50px auto auto;
-  background-color: rgba(56, 56, 56, 0.8);
-  border: 3px #4a4949 solid;
+    width: auto;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 50px auto -125px;
+    background-color: rgba(56, 56, 56, 0.8);
+    border: 3px #4a4949 solid;
 }
 
 td {
-  padding: 0;
+  padding: 10px;
   border: 1px black solid;
-  border-spacing: 0;
+  text-align: center;
 }
 
 th {
-  padding: 0;
+    padding: 10px;
   height: 50px;
   border: 1px black solid;
   border-spacing: 0;
 }
 
 .datetime{
-  display: flex;
-  max-width: 200px;
-  margin: 7% auto auto;
-  padding: 10px;
-  background-color: rgba(56, 56, 56, 0.8);
-  border: 3px #4a4949 solid;
-  border-radius: 30px;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: -5px auto -45px;
+    padding: 10px;
+    background-color: rgba(56, 56, 56, 0.8);
+    border: 3px #4a4949 solid;
+    border-radius: 5px;
+     text-align: center;
 }
 .time{
   font-size: 50px;
+    margin-right: 80px;
 }
 .date{
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .foot{
