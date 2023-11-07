@@ -35,8 +35,9 @@ a:hover { /* link hover */
 }
 
 .links-box {
+    text-align: center;
+    max-width: 70%;
     padding: 10px 10px 5px 10px;
-    max-width: 57%;
     margin: 50px auto auto;
     background-color: rgba(56, 56, 56, 0.8);
     border: 3px #4a4949 solid;
