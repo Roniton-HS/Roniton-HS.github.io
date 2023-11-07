@@ -60,7 +60,7 @@ a:hover { /* link hover */
 .main-image {
     max-width: 8.5%;
     max-height: 8.5%;
-    padding: 30px;
+    padding: 3%;
     display: flex;
     justify-content: center;
     margin: 3% auto auto;
