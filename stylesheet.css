@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    background-image: url("timetable/timetableBackground.jpg");
+    background-image: url("res/background_fantasy.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
