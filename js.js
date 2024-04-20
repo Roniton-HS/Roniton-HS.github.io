@@ -19,6 +19,12 @@ const getTime = function() {
   let minute    = pad(date.getMinutes(), 2, '0');
 
   dateElem.textContent = `${weekday}. ${day}.${month}.${year}`;
-  timeElem.textContent = `${hour}:${minute}`;
+  if(hour < 10){
+    const newHour = '0'+hour;
+    timeElem.textContent = `${newHour}:${minute}`;
+  }else {
+    timeElem.textContent = `${hour}:${minute}`;
+  }
+
 }
 setInterval(getTime, 1000);

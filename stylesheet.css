@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    background-image: url("res/berge.avif");
+    background-image: url("res/eso.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,9 +16,9 @@ a { /* all links */
 }
 
 a:hover { /* link hover */
- }
+}
 
-.header-img{
+.header-img {
     width: 50px;
     height: 50px;
     display: flex;
@@ -26,8 +26,14 @@ a:hover { /* link hover */
 }
 
 .datetime {
-    margin-top: 1%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-bottom: 10px;
     text-align: center;
+    background-color: rgba(56, 56, 56, 0.8);
+    max-width: 13%;
 }
 
 .time {
@@ -36,12 +42,11 @@ a:hover { /* link hover */
 
 .links-box {
     text-align: center;
-    max-width: 70%;
+    max-width: 60%;
     padding: 10px 10px 5px 10px;
-    margin: 50px auto auto;
+    margin: auto;
     background-color: rgba(56, 56, 56, 0.8);
-    border: 3px #4a4949 solid;
-    border-radius: 5px;
+    border: 0px #4a4949 solid;
 }
 
 .link-images {
@@ -63,28 +68,26 @@ a:hover { /* link hover */
     padding: 3%;
     display: flex;
     justify-content: center;
-    margin: 3% auto auto;
-    background: rgba(56, 56, 56, 0.4);
-    border: 3px #4a4949 solid;
+    margin: auto;
     border-radius: 30px;
 
 }
 
-.foot{
+.foot {
     max-width: 8%;
     display: flex;
     margin: auto auto auto 46%;
     padding: 10px;
-    background: rgba(56, 56, 56, 0.8);
     border-radius: 30px;
-    border: 3px #4a4949 solid;
+    background: rgba(56, 56, 56, 0.8);
 }
-.bottom-box{
+
+.bottom-box {
     display: flex;
-    margin: auto;
-    margin-top: 8%;
+    margin: 15% auto auto;
 }
-.bottom-links{
+
+.bottom-links {
     width: 60px;
     height: 60px;
     padding: 10px;
@@ -92,6 +95,6 @@ a:hover { /* link hover */
     transition: transform 100ms;
 }
 
-.bottom-links:hover{
+.bottom-links:hover {
     transform: scale(1.5);
 }
