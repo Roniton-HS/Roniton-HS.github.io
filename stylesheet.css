@@ -74,6 +74,7 @@ a { /* all links */
 }
 
 .foot {
+    min-width: 100px;
     width: 100px;
     align-content: center;
     text-align: center;
