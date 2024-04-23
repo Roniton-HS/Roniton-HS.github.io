@@ -5,7 +5,8 @@ body {
     background-repeat: no-repeat;
     color: white;
     padding: 16px;
-    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a { /* all links */
