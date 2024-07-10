@@ -45,3 +45,15 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    margin-bottom: 10px;
+}
