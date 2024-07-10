@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("homepage/res/img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    height: 8vh;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(25, 26, 35);
+    margin: -23px -8px 0 -10px;
+}
+
+.main_content {
+    padding: 2%;
+    margin: auto;
+    max-width: 70%;
+    background-color: rgb(36, 37, 49);
+}
+
+a {
+    color: cadetblue;
+}
