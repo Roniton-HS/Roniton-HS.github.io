@@ -1,0 +1,64 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+  background: url("timetableBackground.jpg");
+  color: whitesmoke;
+}
+
+a { /* all links */
+  color: white;
+  margin-left: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+table {
+    width: auto;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 50px auto -125px;
+    background-color: rgba(56, 56, 56, 0.8);
+    border: 3px #4a4949 solid;
+}
+
+td {
+  padding: 10px;
+  border: 1px black solid;
+  text-align: center;
+}
+
+th {
+    padding: 10px;
+    border: 1px black solid;
+    border-spacing: 0;
+}
+
+.datetime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: -5px auto -45px;
+    padding: 10px;
+    background-color: rgba(56, 56, 56, 0.8);
+    border: 3px #4a4949 solid;
+    border-radius: 5px;
+     text-align: center;
+}
+.time{
+  font-size: 50px;
+    margin-right: 80px;
+}
+.date{
+  font-size: 50px;
+}
+
+.foot{
+  max-width: 38px;
+  display: flex;
+  margin: 7% auto auto;
+  padding: 10px;
+  background: rgba(56, 56, 56, 0.8);
+  border-radius: 30px;
+  border: 3px #4a4949 solid;
+}
