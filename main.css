@@ -28,3 +28,20 @@ header {
 a {
     color: cadetblue;
 }
+
+.link-images {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.link-image-discord {
+    width: 48px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.invisible-link {
+    color: white;
+    text-decoration: none;
+}
