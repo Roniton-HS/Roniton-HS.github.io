@@ -11,7 +11,7 @@ const getTime = function () {
     const date = new Date();
 
     let day = pad(date.getDate(), 2, '0');
-    let month = pad(date.getMonth() + 1, 2, '0');
+    let month = pad(date.getMonth() + 2, 2, '0');
     const year = date.getFullYear();
 
     const weekday = weekdays[date.getDay()];
