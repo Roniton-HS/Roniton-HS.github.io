@@ -1,12 +1,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    background-image: url("res/img.png");
-    background-position: center;
-    background-repeat: no-repeat;
     color: white;
     padding: 16px;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url('homepage/res/backgrounds/standard.png');
 }
 
 a { /* all links */
