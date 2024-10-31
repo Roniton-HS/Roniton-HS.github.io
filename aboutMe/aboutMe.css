@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    background: url("homepage/res/backgrounds/standard.png") no-repeat fixed center;
+    background: url("../homepage/res/backgrounds/standard.png") no-repeat fixed center;
     background-size: cover;
     color: white;
     backdrop-filter: blur(3px);
