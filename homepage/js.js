@@ -38,7 +38,7 @@ setInterval(getTime, 1000);
 const setBackground = function (month) {
     const rand = Math.floor(Math.random() * 6)
 
-    switch (2){
+    switch (rand){
         default:
             document.body.style.background = "url('homepage/res/backgrounds/standard.png')";
             break;
