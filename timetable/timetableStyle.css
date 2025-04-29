@@ -1,6 +1,6 @@
 body{
   font-family: 'Roboto Mono', monospace;
-  background: url("timetableBackground.jpg");
+  background: url("../res/backgrounds/timetableBackground.jpg");
   color: whitesmoke;
 }
 

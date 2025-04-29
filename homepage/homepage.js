@@ -40,22 +40,22 @@ const setBackground = function (month) {
 
     switch (rand){
         default:
-            document.body.style.background = "url('homepage/res/backgrounds/standard.png')";
+            document.body.style.background = "url('../res/backgrounds/standard.png')";
             break;
         case 1:
-            document.body.style.background = "url('homepage/res/backgrounds/forestBackground.jpg')";
+            document.body.style.background = "url('../res/backgrounds/forestBackground.jpg')";
             break;
         case 2:
-            document.body.style.background = "url('homepage/res/backgrounds/galacticBackground.jpg')";
+            document.body.style.background = "url('../res/backgrounds/galacticBackground.jpg')";
             break;
         case 3:
-            document.body.style.background = "url('homepage/res/backgrounds/lakeBackground.jpg')";
+            document.body.style.background = "url('../res/backgrounds/lakeBackground.jpg')";
             break;
         case 4:
-            document.body.style.background = "url('homepage/res/backgrounds/mountainBackground.jpg')";
+            document.body.style.background = "url('../res/backgrounds/mountainBackground.jpg')";
             break;
         case 5:
-            document.body.style.background = "url('homepage/res/backgrounds/waterBackground.jpg')";
+            document.body.style.background = "url('../res/backgrounds/waterBackground.jpg')";
     }
 
     document.body.style.backgroundSize = "cover";

@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto Mono', monospace;
     color: white;
     padding: 16px;
-    background-image: url("homepage/res/backgrounds/forestBackground.jpeg"),
-    url("homepage/res/backgrounds/forestBackground.jpg"),
-    url("homepage/res/backgrounds/galacticBackground.jpg"),
-    url("homepage/res/backgrounds/lakeBackground.jpg"),
-    url("homepage/res/backgrounds/mountainBackground.jpg"),
-    url("homepage/res/backgrounds/standard.png"),
-    url("homepage/res/backgrounds/waterBackground.jpg");
+    background-image: url("../res/backgrounds/forestBackground.jpeg"),
+    url("../res/backgrounds/forestBackground.jpg"),
+    url("../res/backgrounds/galacticBackground.jpg"),
+    url("../res/backgrounds/lakeBackground.jpg"),
+    url("../res/backgrounds/mountainBackground.jpg"),
+    url("../res/backgrounds/standard.png"),
+    url("../res/backgrounds/waterBackground.jpg");
 }
 
 a { /* all links */
